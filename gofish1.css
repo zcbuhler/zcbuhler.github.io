@@ -1,0 +1,200 @@
+header, nav, main, footer { display: block; }
+.designer-name{
+  float: right;
+  font-style: italic;
+  font-size: 80%;
+}
+.name-number {
+
+  margin-left: 11%;
+  color: #ff4d4d;
+  float: left;
+  background: white;
+
+  padding: 1em;
+  border: #ff4d4d 2px solid;
+
+}
+
+.name-number h3 {
+  text-align: center;
+}
+
+label { display: block;
+  float: left;
+  text-align: right;
+  font-weight: bold;
+  width: 10em;
+  padding-right: 1em;
+  margin-left: -6em;
+}
+
+ input, textarea { display: block;
+  margin-bottom: 2em;
+  border: 2px solid #ff4d4d;
+}
+
+
+
+form { padding: 3em;}
+
+#mySubmit { margin-left: 7em;}
+
+
+header { background-image: url(beer-fish-logo3.png);
+    background-repeat:no-repeat;
+    background-position: right;
+    height: 200px;
+    margin-right: 10%;
+
+}
+
+h2 { text-align: center;
+
+}
+
+nav {      width: auto;
+      font-weight:  bold;
+      padding: 1em;
+      text-align: center;
+}
+
+
+nav ul { list-style-type: none;
+
+}
+
+nav a { text-decoration: none;
+        padding: 10px;
+
+
+}
+
+a:hover { background-color: orange;
+
+}
+
+ul { list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li { display: inline;
+     padding: 0;
+
+
+}
+
+li a{ display: inline-block;
+  background-color: #ff4d4d;
+  width: 15%;
+  color: black;
+
+  color: white;
+}
+
+li { padding: 1em;
+  font-size: 1.2em;
+
+}
+
+.menu-list {text-align: center;
+
+}
+
+body{
+  font-family: Verdana, Arial, Sans-Serif;
+  background: #d9d9d9;
+}
+
+
+
+
+
+#wrapper { width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  border: 2px #ff4d4d solid;
+
+
+}
+
+.hero { text-align: center;
+
+}
+
+
+footer { font-style: italic;
+  text-align: center;
+  padding: 2em;
+  background-color: #ff4d4d;
+  color: white;
+
+}
+
+p { margin-left: 12%;
+  margin-right: 12%;
+
+}
+.body-text-content {
+  margin-left: 30%;
+
+}
+
+@media only screen and (max-width: 1024px) {
+  .hero { display: none;}
+  nav li { display: list-item;
+  }
+
+  nav {      width: auto;
+        font-weight:  bold;
+        padding: 1em;
+        text-align: center;
+
+
+  }
+  nav a { text-decoration: none;
+          padding: 1em;
+          font-size: 95%;
+          width: 100px;
+          height: 50px;
+
+  }
+
+  header { background-image: none;
+
+  }
+
+
+
+}
+@media only all and (max-width: 768px) {
+  .hero { display: none;}
+  nav li { display: list-item;
+
+  }
+
+  nav {      width: auto;
+        font-weight:  bold;
+        padding: 1em;
+        text-align: center;
+
+
+  }
+  nav a { text-decoration: none;
+          padding: 1em;
+          font-size: 80%;
+          width: 100px;
+          height: 50px;
+  }
+
+  header { background-image: none;
+            padding: 1em;
+  }
+  header h1 {
+
+  border: none;
+  }
+
+}
